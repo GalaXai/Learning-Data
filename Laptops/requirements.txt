@@ -2,4 +2,3 @@ streamlit
 sklearn
 numpy
 pandas
-re
