@@ -28,10 +28,10 @@ touchscreen = st.selectbox("TouchScreen", ['No', 'Yes'])
 ips = st.selectbox("IPS", ['No', 'Yes'])
 
 #Screen Size
-screen_size = st.number_input('Screen Size (in Inches)')
+screen_size = st.selectbox('Screen Size (in Inches)', [10.1, 11.3, 11.6, 12. , 12.3, 12.5, 13. , 13.3, 13.5, 13.9, 14. ,14.1, 15. , 15.4, 15.6, 17. , 17.3, 18.4])
 
 #Resolution
-resolution = st.selectbox('Screen Resolution', ['1920x1080','1366x768','1600x900','3840x2160','3200x1800','2880x1800','2560x1600','2560x1440','2304x1440'])
+resolution = st.selectbox('Screen Resolution', ['1366x768','1600x900','1920x1080','2304x1440','2560x1440','2560x1600','2880x1800','3200x1800','3840x2160'])
 
 #Specs
 cpu= st.selectbox('CPU',df['Cpu_brand'].unique())
