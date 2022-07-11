@@ -1,0 +1,1 @@
+![:D](https://courses.nvidia.com/certificates/6c3a606ce11d4aa4970109438878a78b/)
